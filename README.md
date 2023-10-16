@@ -1,12 +1,12 @@
 # Master-Slave-Architecture
 
-This project involves establishing communication among three or more devices, designated as master, slave, and client.
+This project involves establishing communication among three or more devices, designated as master, slaves, and client.
 
 Tools: Visual Studio Code.
 
 Languages: GO.
 
-The code assumes that the client initially connects with the master to receive the IP addresses of the slave devices.
+The code assumes that the client initially connects with the master to receive the IP addresses of the slaves devices.
 Subsequently, then the client connects with each slave device individually to receive a text file.
 
 On the other hand, the master device connects with the client and sends the IP addresses and port numbers of each slave device.
